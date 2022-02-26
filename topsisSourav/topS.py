@@ -118,4 +118,3 @@ def topsis(source,l,im,dest):
   df = df.astype({"Rank": "int"})
   df.to_csv(dest,index=False)
  
-
