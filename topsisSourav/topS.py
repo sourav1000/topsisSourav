@@ -97,8 +97,8 @@ def topsis(source,l,im,dest):
         sum1=sum1+((max[j]-number[i][j])**2)
         sum2=sum2+((min[j]-number[i][j])**2)
       else:
-      sum2=sum2+((max[j]-number[i][j])**2)
-      sum1=sum1+((min[j]-number[i][j])**2)
+          sum2=sum2+((max[j]-number[i][j])**2)
+          sum1=sum1+((min[j]-number[i][j])**2)
     best.append(sum1**0.5)
     worst.append(sum2**0.5)
 
