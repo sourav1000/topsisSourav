@@ -117,5 +117,5 @@ def topsis(source,l,im,dest):
   df["Rank"] = (df["score"].rank(method="max", ascending=False))
   df = df.astype({"Rank": "int"})
   df.to_csv(dest,index=False)
-  print(df)
+ 
 
